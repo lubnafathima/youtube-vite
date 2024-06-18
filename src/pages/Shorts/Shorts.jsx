@@ -1,15 +1,12 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import SideBar from "../../components/SideBar/SideBar";
+import Layout from "../../components/Layout/Layout";
 import ShortsComponent from "../../components/Shorts/Shorts";
 
 const Shorts = () => {
   return (
-    <>
-      <Header />
-      <SideBar />
+    <Layout className="shorts">
       <ShortsComponent />
-    </>
+    </Layout>
   );
 };
 

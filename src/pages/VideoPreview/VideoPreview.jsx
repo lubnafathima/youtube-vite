@@ -1,15 +1,12 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import SideBar from "../../components/SideBar/SideBar";
+import Layout from "../../components/Layout/Layout";
 import VideoPreviewComponent from "../../components/VideoPreview/VideoPreview";
 
 const VideoPreview = () => {
   return (
-    <>
-      <Header />
-      <SideBar />
+    <Layout className="videopreview">
       <VideoPreviewComponent />
-    </>
+    </Layout>
   );
 };
 

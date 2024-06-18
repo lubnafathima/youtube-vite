@@ -1,14 +1,13 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import SideBar from "../../components/SideBar/SideBar";
+import Layout from "../../components/Layout/Layout";
 import HomePageComponent from "../../components/HomePage/HomePage";
 
 const HomePage = () => {
   return (
     <>
-      <Header />
-      <SideBar />
-      <HomePageComponent />
+      <Layout className="homepage">
+        <HomePageComponent />
+      </Layout>
     </>
   );
 };

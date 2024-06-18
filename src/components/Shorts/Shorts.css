@@ -1,0 +1,26 @@
+.shorts_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 93vh;
+}
+
+.shorts_content {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 1rem;
+}
+
+.shorts_video {
+    min-width: 20vw;
+    min-height: 70vh;
+    border: 1px solid #333;
+}
+
+.shorts_options {
+    border: 1px solid #333;
+    width: 5vw;
+    height: 40vh;
+}
