@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import './HomePage.css';
 
 const HomePage = () => {
@@ -9,12 +10,12 @@ const HomePage = () => {
         <button className='filter_btn'></button>
       </div>
       <div className='video_group'>
-        <div className='video_container'></div>
-        <div className='video_container'></div>
-        <div className='video_container'></div>
-        <div className='video_container'></div>
-        <div className='video_container'></div>
-        <div className='video_container'></div>
+        <Link to="/video-preview" className='video_container'></Link>
+        <Link to="/video-preview" className='video_container'></Link>
+        <Link to="/video-preview" className='video_container'></Link>
+        <Link to="/video-preview" className='video_container'></Link>
+        <Link to="/video-preview" className='video_container'></Link>
+        <Link to="/video-preview" className='video_container'></Link>
       </div>
     </div>
   )
