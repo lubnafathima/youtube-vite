@@ -1,13 +1,14 @@
-import "./VideoPreview.css"
+import "./VideoPreviewComponent.css"
+import SuggestedVideo from "../SuggestedVideo/SuggestedVideo";
 
 const VideoPreview = () => {
   return (
     <div className="video_preview_container">
       <div className="video_preview"></div>
       <div className="video_suggestions">
-        <div className="suggested_video"></div>
-        <div className="suggested_video"></div>
-        <div className="suggested_video"></div>
+        <SuggestedVideo />
+        <SuggestedVideo />
+        <SuggestedVideo />
       </div>
     </div>
   );

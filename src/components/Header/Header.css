@@ -41,3 +41,15 @@
   justify-content: end;
   gap: 1rem;
 }
+
+.notification_container {
+  position: absolute;
+  top: 3.5rem;
+  right: 1rem;
+  width: 20vw;
+  height: 40vh;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}

@@ -1,4 +1,4 @@
-import './Shorts.css';
+import './ShortsComponent.css';
 
 const Shorts = () => {
   return (
